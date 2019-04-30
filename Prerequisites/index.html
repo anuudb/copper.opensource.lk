@@ -1,0 +1,772 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Copper email solution documentation">
+      
+      
+        <link rel="canonical" href="https://copper.opensource.lk/Prerequisites/">
+      
+      
+        <meta name="author" content="Lanka Software Foundation">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>Prerequisites - Copper mail</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.750b69bd.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ffa000">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#prerequisites" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://copper.opensource.lk" title="Copper mail" class="md-header-nav__button md-logo">
+          
+            <img src="../images/copper_logo.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Copper mail
+            </span>
+            <span class="md-header-nav__topic">
+              Prerequisites
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/LSFLK/Copper/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    LSFLK/Copper
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://copper.opensource.lk" title="Copper mail" class="md-nav__button md-logo">
+      
+        <img src="../images/copper_logo.svg" width="48" height="48">
+      
+    </a>
+    Copper mail
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/LSFLK/Copper/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    LSFLK/Copper
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Features/" title="Features" class="md-nav__link">
+      Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Prerequisites
+      </label>
+    
+    <a href="./" title="Prerequisites" class="md-nav__link md-nav__link--active">
+      Prerequisites
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#host-requirment" title="Host Requirment" class="md-nav__link">
+    Host Requirment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-open-ports" title="Check Open Ports" class="md-nav__link">
+    Check Open Ports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" title="Docker" class="md-nav__link">
+    Docker
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-installation" title="Docker Installation" class="md-nav__link">
+    Docker Installation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes" title="Kubernetes" class="md-nav__link">
+    Kubernetes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-kubernetes-version" title="Check kubernetes version" class="md-nav__link">
+    Check kubernetes version
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-installation" title="kubernetes Installation" class="md-nav__link">
+    kubernetes Installation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Configuration/" title="Initial Configuration" class="md-nav__link">
+      Initial Configuration
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../CConfiguration/" title="Client Configuration" class="md-nav__link">
+      Client Configuration
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../userfeature/" title="Groupware Features" class="md-nav__link">
+      Groupware Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Backups/" title="Backup & Restoration" class="md-nav__link">
+      Backup & Restoration
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../troubleshoot/" title="Troubleshoot" class="md-nav__link">
+      Troubleshoot
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Hub/" title="Central Supervision" class="md-nav__link">
+      Central Supervision
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../issues/" title="Email security" class="md-nav__link">
+      Email security
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#host-requirment" title="Host Requirment" class="md-nav__link">
+    Host Requirment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-open-ports" title="Check Open Ports" class="md-nav__link">
+    Check Open Ports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" title="Docker" class="md-nav__link">
+    Docker
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-installation" title="Docker Installation" class="md-nav__link">
+    Docker Installation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes" title="Kubernetes" class="md-nav__link">
+    Kubernetes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-kubernetes-version" title="Check kubernetes version" class="md-nav__link">
+    Check kubernetes version
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-installation" title="kubernetes Installation" class="md-nav__link">
+    kubernetes Installation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/LSFLK/Copper/edit/master/docs/Prerequisites.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h1>
+<h2 id="host-requirment">Host Requirment<a class="headerlink" href="#host-requirment" title="Permanent link">&para;</a></h2>
+<p>Following requirments must be satisfied by the Email solution host, vertual machine or cloud environment.</p>
+<p>RAM 2 GB</p>
+<p>HDD 50 GB</p>
+<p>Internet connectivity.</p>
+<h2 id="check-open-ports">Check Open Ports<a class="headerlink" href="#check-open-ports" title="Permanent link">&para;</a></h2>
+<p>Make sure any other application does not use ports that we are going to listen to</p>
+<div class="codehilite"><pre><span></span>$ netstat -tulpn | grep -E -w &#39;25|80|110|143|443|465|587|993|995|4190|11334&#39;
+
+//check each port
+
+$ sudo lsof -i :25
+</pre></div>
+
+
+<p>Unblock following ports</p>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Software</th>
+<th>Protocol</th>
+<th>Port</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMTP</td>
+<td>Postfix</td>
+<td>TCP</td>
+<td>25</td>
+</tr>
+<tr>
+<td>IMAP</td>
+<td>Dovecot</td>
+<td>TCP</td>
+<td>143</td>
+</tr>
+<tr>
+<td>SMTPS</td>
+<td>Postfix</td>
+<td>TCP</td>
+<td>465</td>
+</tr>
+<tr>
+<td>Submission</td>
+<td>Postfix</td>
+<td>TCP</td>
+<td>587</td>
+</tr>
+<tr>
+<td>IMAPS</td>
+<td>Dovecot</td>
+<td>TCP</td>
+<td>993</td>
+</tr>
+</tbody>
+</table>
+<p>Then check external firewall also .</p>
+<h2 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h2>
+<p>It is must to have docker installed in your host machine. So first check whether docker is already available and docker version should be version 18.0 or greater.</p>
+<div class="codehilite"><pre><span></span>docker -v
+</pre></div>
+
+
+<p>If docker has not already installed then it must be installed. </p>
+<h3 id="docker-installation">Docker Installation<a class="headerlink" href="#docker-installation" title="Permanent link">&para;</a></h3>
+<p><a href="https://www.linux.com/learn/intro-to-linux/2017/11/how-install-and-use-docker-linux">Docker installation</a></p>
+<p align="justify">
+Since Ubuntu Server 16.04 is sans GUI, the installation and usage of Docker will be handled entirely through the command line. Before you run the installation command, make sure to update apt and then run any necessary upgrades. Do note, if your server’s kernel upgrades, you’ll need to reboot the system. Thus, you might want to plan to do this during a time when a server reboot is acceptable.
+</p>
+
+<p>To update apt, issue the command:</p>
+<p><code>sudo apt update</code></p>
+<p>Once that completes, upgrade with the command:</p>
+<p><code>sudo apt upgrade</code></p>
+<p>If the kernel upgrades, you’ll want to reboot the server with the command:</p>
+<p><code>sudo reboot</code></p>
+<p>If the kernel doesn’t upgrade, you’re good to install Docker (without having to reboot). The Docker installation command is:</p>
+<p><code>sudo apt install docker.io</code></p>
+<p align="justify">
+If you’re using a different Linux distribution, and you attempt to install (using your distribution’s package manager of choice), only to find out docker.io isn’t available, the package you want to install is called docker. For instance, the installation on Fedora would be:
+</p>
+
+<p><code>sudo dnf install docker</code>
+<p align="justify">
+If your distribution of choice is CentOS 7, installing docker is best handled via an installation script. First update the platform with the command sudo yum check-update. Once that completes, issue the following command to download and run the necessary script:
+</p></p>
+<p><code>curl -fsSL https://get.docker.com/ | sh</code>
+<p align="justify">
+Out of the box, the docker command can only be run with admin privileges. Because of security issues, you won’t want to be working with Docker either from the root user or with the help of sudo. To get around this, you need to add your user to the docker group. This is done with the command:
+</p></p>
+<p><code>sudo usermod -a -G docker $USER</code>
+<p align="justify">
+Once you’ve taken care of that, log out and back in, and you should be good to go. That is, unless your platform is Fedora. When adding a user to the docker group to this distribution, you’ll find the group doesn’t exist. What do you do? You create it first. Here are the commands to take care of this:
+</p></p>
+<p><code>sudo groupadd docker &amp;&amp; sudo gpasswd -a ${USER} docker &amp;&amp; sudo systemctl restart docker</code></p>
+<p><code>newgrp docker</code></p>
+<p>Log out and log back in. You should be ready to use Docker.</p>
+<p>Starting, stopping, and enabling Docker</p>
+<p>Once installed, you will want to enable the Docker daemon at boot. To do this, issue the following two commands:</p>
+<p><code>sudo systemctl start docker</code></p>
+<p><code>sudo systemctl enable docker</code></p>
+<p>Should you need to stop or restart the Docker daemon, the commands are:</p>
+<p><code>sudo systemctl stop docker</code></p>
+<p><code>sudo systemctl restart docker</code></p>
+<p>Docker is now ready to deploy containers.</p>
+<h2 id="kubernetes">Kubernetes<a class="headerlink" href="#kubernetes" title="Permanent link">&para;</a></h2>
+<p>To deploy copper email solution we should have kubernetes version greater than  1.10 .</p>
+<h3 id="check-kubernetes-version">Check kubernetes version<a class="headerlink" href="#check-kubernetes-version" title="Permanent link">&para;</a></h3>
+<p><code>kubectl version</code></p>
+<p>Now your system is ready for copper installation.</p>
+<h3 id="kubernetes-installation">kubernetes Installation<a class="headerlink" href="#kubernetes-installation" title="Permanent link">&para;</a></h3>
+<p><a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Install kubernetes</a></p>
+<p>Install kubectl on Linux</p>
+<p>Install kubectl binary with curl on Linux</p>
+<p>Download the latest release with the command:</p>
+<p><code>curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl</code></p>
+<p align="justify">
+To download a specific version, replace the $(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt) portion of the command with the specific version.
+For example, to download version v1.14.0 on Linux, type:
+</p>
+
+<p><code>curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kubectl</code></p>
+<p>Make the kubectl binary executable.</p>
+<p><code>chmod +x ./kubectl</code></p>
+<p>Move the binary in to your PATH.</p>
+<p><code>sudo mv ./kubectl /usr/local/bin/kubectl</code></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Features/" title="Features" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Features
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Installation/" title="Installation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Installation
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2018 - 2019 Lanka Software Foundation
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.39abc4af.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
