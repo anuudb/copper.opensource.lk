@@ -9,6 +9,7 @@ repo_url: 'https://github.com/LSFLK/Copper'
 copyright: 'Copyright &copy; 2018 - 2019 Lanka Software Foundation'
 
 nav:
+    # - Copper mail: index.md
     - Overview: Overview.md
     - Features: Features.md
     - Prerequisites: Prerequisites.md
