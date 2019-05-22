@@ -20,6 +20,7 @@ nav:
     - Troubleshoot: troubleshoot.md
     - Central Supervision: Hub.md
     - Email security: issues.md
+    - F & Q: F&Q.md
     
 theme:
   name: 'material'
