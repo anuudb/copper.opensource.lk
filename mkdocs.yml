@@ -10,7 +10,7 @@ copyright: 'Copyright &copy; 2018 - 2019 Lanka Software Foundation'
 
 nav:
     - Overview: Overview.md
-    - Features: Features.md
+    - Structure: Structure.md
     - Prerequisites: Prerequisites.md
     - Installation: Installation.md
     - Initial Configuration: Configuration.md

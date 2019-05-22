@@ -1,4 +1,4 @@
-# Features
+# Structure
 <p align="justify">
 Copper Email Solution has been integrated many industry leading applicaitons to ensure most featurefull and secured email solution is delevered. Knowing each tool it was used will be good approach to know the solution well.
 </p>
