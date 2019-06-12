@@ -1,4 +1,4 @@
-# copper.opensource.lk
+# copperdoc.opensource.lk
 copper email solution documentation 
 
 install python(2.7) and pip 
