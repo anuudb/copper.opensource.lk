@@ -11,17 +11,19 @@ copyright: 'Copyright &copy; 2018 - 2019 Lanka Software Foundation'
 nav:
     # - Copper mail: index.md
     - Overview: Overview.md
-    - Structure: Structure.md
+    - Features: userfeature.md
+    - Technical Documentation: Structure.md
     - Prerequisites: Prerequisites.md
     - Installation: Installation.md
     - Initial Configuration: Configuration.md
-    - Client Configuration: CConfiguration.md
-    - Groupware Features: userfeature.md
+    #- Client Configuration: CConfiguration.md
     - Backup & Restoration: Backups.md
     - Troubleshoot: troubleshoot.md
-    - Central Supervision: Hub.md
+    #- Central Supervision: Hub.md
     - Email security: issues.md
-    - F & Q: F&Q.md
+    - LSF: lsf.md
+    - FAQ: F&Q.md
+    - Contact us: contactus.md
     
 theme:
   name: 'material'

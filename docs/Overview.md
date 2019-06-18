@@ -9,10 +9,6 @@ environments. But Most companies are not willing to host their servers in remote
 Copper Email System is the solution developed by Lanka Software Foundation with LK Domain Registry for those issues in the corporate sector. Obviously it is free and opensource. Its repositoty is open for any one to contribute. Further this solution is deployed over Kubernetes which is advanced cloud server deplyment (Ochestration) framework.
 </p>
 
-## Lanka Software Foundation (LSF)
-<p align="justify">
-Lanka Software Foundation (LSF) was established in 2003 as a company limited by guarantee and as “not for profit” organization with the vision of positioning Sri Lanka as a “global Free and Open Source (FOSS) Research & Development hub”.
-</p>
 
 ## LK Domain Registry
 <p align="justify">

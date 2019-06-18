@@ -1,4 +1,4 @@
-# Structure
+# Service Structure
 <p align="justify">
 Copper Email Solution has been integrated many industry leading applicaitons to ensure most featurefull and secured email solution is delevered. Knowing each tool it was used will be good approach to know the solution well.
 </p>
@@ -181,6 +181,12 @@ It includes following features.
 *   NewsLetters
 
 [Group-Office](https://www.group-office.com) CRM
+
+
+
+# Deployment Structure
+
+![Deployment](images/configuration/deployment.png)
 
 
 ## DOCKER
