@@ -12,7 +12,7 @@ Copper Email System is the solution developed by Lanka Software Foundation with 
 
 ## LK Domain Registry
 <p align="justify">
-The LK Domain Registry was established in 1990. Since its inception, it has served the country not only by providing a professional domain registration service, but also by facilitating development of Internet infrastructure to improve the Internet in Sri Lanka.
+The LK Domain Registry was established in 1990. Since its inception, it has served the country not only by providing a professional domain registration service, but also by facilitating development of Internet infrastructure to improve the Internet in Sri Lanka. Further they provide great support for copper email solution development.
 </p>
 
 
@@ -29,7 +29,3 @@ Grafana pull and run
     docker pull grafana/grafana
     docker run -d --name=grafana -p 3000:3000 grafana/grafana -->
 
-
-## Contact us
-    
-If you have any questions or doubts about Cu, please [contact us](mailto:copper@opensource.lk)
