@@ -2,62 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://copper.opensource.lk/Overview/</loc>
-     <lastmod>2019-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://copper.opensource.lk/Structure/</loc>
-     <lastmod>2019-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://copper.opensource.lk/Prerequisites/</loc>
-     <lastmod>2019-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://copper.opensource.lk/Installation/</loc>
-     <lastmod>2019-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://copper.opensource.lk/Configuration/</loc>
-     <lastmod>2019-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://copper.opensource.lk/CConfiguration/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://copper.opensource.lk/userfeature/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <lastmod>2019-06-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://copper.opensource.lk/Structure/</loc>
+     <lastmod>2019-06-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://copper.opensource.lk/Prerequisites/</loc>
+     <lastmod>2019-06-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://copper.opensource.lk/Installation/</loc>
+     <lastmod>2019-06-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://copper.opensource.lk/Configuration/</loc>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://copper.opensource.lk/Backups/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://copper.opensource.lk/troubleshoot/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://copper.opensource.lk/Hub/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <loc>https://copper.opensource.lk/HubInstallation/</loc>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://copper.opensource.lk/issues/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <lastmod>2019-06-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://copper.opensource.lk/lsf/</loc>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://copper.opensource.lk/F&Q/</loc>
-     <lastmod>2019-05-22</lastmod>
+     <lastmod>2019-06-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://copper.opensource.lk/contactus/</loc>
+     <lastmod>2019-06-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
