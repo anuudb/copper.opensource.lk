@@ -11,8 +11,8 @@ First, create grafana docker image using ./grafana-image/Dockerfile. (Read the .
 
 ```
 docker build -t graf .
-Quick start
 ```
+###Quick start
 To quickly start all the things just do this:
 
     kubectl apply --filename ./prometheus-master/manifests-all.yaml
@@ -33,24 +33,25 @@ To shut down all components again you can just delete that namespace:
 
 After installing, it is must to create a datasource in grafana as "prometheus" and local URL would be "http://prometheus.monitoring.svc.cluster.local:9090/".
 
-Configure Prometheus data source for Grafana.
-Grafana UI / Data Sources / Add data source
-    Name: prometheus
-    Type: Prometheus
-    Url: http://prometheus.monitoring.svc.cluster.local:9090/
-Add
-Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana.
+####Configure Prometheus data source for Grafana.
 
-Import grafana dashboard.
-Dashboards / Manage / import
-Name: Kubernetes Pod Resources
-Location: /prometheus-master/grafana_dashboards/dashboard_1.json
-import
-Then create a "Notification channel" to make sure that alert mails will receive for the right address.
+* Brows [Grafana UI / Data Sources / Add data source]
+    - Name: prometheus
+    - Type: Prometheus
+    - Url: http://prometheus.monitoring.svc.cluster.local:9090/
+    - Add 
 
-Create Notification channel.
-Alerting / Notification channels / New channel
-    Name: Email
-    Type: Email
-    Email addresses: Your email address
-import
+####Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana.
+
+* Brows [Dashboards / Manage / import}
+    - Name: Kubernetes Pod Resources
+    - Location: /prometheus-master/grafana_dashboards/dashboard_1.json
+    - import
+
+####Create a "Notification channel" to make sure that alert mails will receive for the right address.
+
+* Brows [Alerting / Notification channels / New channel]
+    - Name: Email
+    - Type: Email
+    - Email addresses: Your email address
+    - import
