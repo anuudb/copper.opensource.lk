@@ -201,13 +201,13 @@ Once accepted it can be seen in the event.
 
 
 <li> Add Reminders </li>
-
+You may add Reminders with time
 
 ![Tasks Remind](images/features/taskremind.png)
 
 
 <li> Can export </li>
-
+Exports available with many formats like, csv, pdf, html etc.
 
 ![Tasks Remind](images/features/taskexport.png)
 
