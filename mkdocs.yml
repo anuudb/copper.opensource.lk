@@ -19,6 +19,7 @@ nav:
     #- Client Configuration: CConfiguration.md
     - Backup & Restoration: Backups.md
     - Troubleshoot: troubleshoot.md
+    - Copper Hub Installation: HubInstallation.md
     #- Central Supervision: Hub.md
     - Email security: issues.md
     - LSF: lsf.md

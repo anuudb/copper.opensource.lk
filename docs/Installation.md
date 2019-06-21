@@ -9,7 +9,11 @@ README.md file in the Deployment folder describe the installation process in det
 ```
 $ git clone https://github.com/LSFLK/Copper.git
 ```
+## create the following folder in your server
 
+```
+/data/ldap/certs
+```
 
 ## Start the deployment
 ```

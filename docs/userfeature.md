@@ -7,24 +7,51 @@ Group-Office has a modern user interface with an attractive feture list. Group-O
 ### Feature list
 
 #### Notes
+The notes module is a simple note taking modules. The notes module supports:
+
+<li>Links</li>
+Group-Office has a very powerful link function. Each item can be linked to another. The link function gives you the ability to organize your data easily. You can for example link:
+
+![Octocat](images/features/note.png)
+
+
+<li>Sharing</li>
+
+Notes can be shared among groups.
+
+![Octocat](images/features/share.png)
+
+
+<li>Attaching Files </li>
+
+![Octocat](images/features/files.png)
 
 <li>You can manage several notebooks according to your needs. </li>
-<li>Can attach a notebook to e.g. email </li>
-<li>Attach files with it </li>
-<li>Notebook can be shared among users </li>
-<li>Can link with tasks, calendar events, contacts etc… </li>
 
-![Octocat](images/notes.png)
+![Octocat](images/features/notes.png)
 
 
 #### Address book
 
+The address book is a very powerful tool to manage contacts and organizations. It’s easy to share address books with other users.
+
+The address book module supports:
+
 <li> Can link with tasks, calendar events, contacts etc… </li>
+
+![Octocat](images/features/ablink.png)
+
 <li> Can directly send an email from contact </li>
-<li> Can customize address book view  </li>
+
+![Octocat](images/features/abmail.png)
+
 <li> Can maintain several address books </li>
 
-![Octocat](images/address_book.png)
+![Octocat](images/features/absab.png)
+
+<li> Export contacts </li>
+
+![Octocat](images/features/abexp.png)
 
 #### Bookmark
 
@@ -34,12 +61,40 @@ Group-Office has a modern user interface with an attractive feture list. Group-O
 
 #### Calendar
 
-<li> Check event / meeting attendance (confirmed, maybe, no) </li>
+<li> Send notification mails to participants when events create in calendar </li>
+
+![Octocat](images/features/calparticipants.png)
+
+<li> Accepting from mail</li>
+
+![Octocat](images/features/calmailack.png)
+
+Once accepted it can be seen in the event.
+
+![Octocat](images/features/calaccepted.png)
+
+<li> Send Events to external users </li>
+
+![Octocat](images/features/calext.png)
+
 <li> Allocate a location </li>
+
+![Octocat](images/features/calloc.png)
+
 <li> Can send a recurrence notification </li>
-<li> Can check availability through calendar </li>
+
+![Octocat](images/features/calopt.png)
+
+<li> Can check resource availability through calendar </li>
+
+![Octocat](images/features/calres.png)
+
 <li> Can categorize calendar e.g. Dev Calendar, Events Calendar </li>
 <li> Enabling reminders </li>
+
+
+
+
 
 ![Octocat](images/calendar.png)
 
