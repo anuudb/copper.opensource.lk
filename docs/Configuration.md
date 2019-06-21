@@ -151,3 +151,26 @@ use provide the usernmae , current password, new password and confirme new passw
 Thats it . Usre's account is users now.
 
         
+## Update Organization Profile.
+<p align="justify">
+Update profile (Include organization name, time zone, language) are possible for administrators. It is possible to change the Title name, language and provide a welcome message at login. Configurations are avilable in the System settings.
+
+</p>
+
+![Organization settings](images/configuration/orgname.png)
+
+### Change the theme color and Organization logo
+
+<p align="justify">
+From Appearance tab in the system settings it is possible to change the theme color and the company logo.
+</p>
+
+![Organization settings](images/configuration/orglogo.png)
+
+### Change the time zone
+
+<p align="justify">
+For changing the time zone User has to go My Account - > Look & Feel.
+</p>
+
+![Organization settings](images/configuration/orgtime.png)
