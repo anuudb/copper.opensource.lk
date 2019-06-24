@@ -10,14 +10,14 @@ First, create grafana docker image using ./grafana-image/Dockerfile. (Read the .
 </p>
 
 ```
-docker build -t graf .
+docker build -t graf ./proemtheus_grafana/grafana-image/Dockerfile
 ```
 ###Quick start
 To quickly start all the things just do this:
 
-    kubectl apply --filename ./prometheus-master/manifests-all.yaml
+    kubectl apply --filename ./proemtheus_grafana/prometheus-master/manifests-all.yaml
 
-    kubectl apply --filename ./prometheus-master/grafana.yaml
+    kubectl apply --filename ./proemtheus_grafana/prometheus-master/grafana.yaml
 
 <p align="justify">
 This will create the namespaces monitoring and grafana and will bring up all components there.
