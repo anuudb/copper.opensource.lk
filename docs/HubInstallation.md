@@ -4,7 +4,7 @@
 
 ##Copper-hub
 <p align="justify">
-This repository contains source code for ![copper-hub](https://github.com/lsflk/copper-hub) which is the alerting, monitoring and update handling system for Copper.
+This repository contains source code for [copper-hub](https://github.com/lsflk/copper-hub) which is the alerting, monitoring and update handling system for Copper. You may access it using http://localhost:3000 after completing belove steps.
 
 First, create grafana docker image using ./grafana-image/Dockerfile. (Read the ./grafana-image/README.md before building image)
 </p>
