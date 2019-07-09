@@ -4,20 +4,20 @@
 
 ##Copper-hub
 <p align="justify">
-This repository contains source code for copper-hub which is the alerting, monitoring and update handling system for Copper.
+This repository contains source code for ![copper-hub](https://github.com/lsflk/copper-hub) which is the alerting, monitoring and update handling system for Copper.
 
 First, create grafana docker image using ./grafana-image/Dockerfile. (Read the ./grafana-image/README.md before building image)
 </p>
 
 ```
-docker build -t graf ./proemtheus_grafana/grafana-image/Dockerfile
+docker build -t graf ./grafana-image/.
 ```
 ###Quick start
 To quickly start all the things just do this:
 
-    kubectl apply --filename ./proemtheus_grafana/prometheus-master/manifests-all.yaml
+    kubectl apply --filename ./prometheus-master/manifests-all.yaml
 
-    kubectl apply --filename ./proemtheus_grafana/prometheus-master/grafana.yaml
+    kubectl apply --filename ./prometheus-master/grafana.yaml
 
 <p align="justify">
 This will create the namespaces monitoring and grafana and will bring up all components there.
@@ -37,15 +37,29 @@ After installing, it is must to create a datasource in grafana as "prometheus" a
 
 * Brows [Grafana UI / Data Sources / Add data source]
     - Name: prometheus
-    - Type: Prometheus
     - Url: http://prometheus.monitoring.svc.cluster.local:9090/
     - Add 
 
-####Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana.
+####Configure Elastic data source for Grafana.
+
+* Brows [Grafana UI / Data Sources / Add data source]
+    - Name: Elasticsearch
+    - Url: http://elasticsearch.copperhub.svc.cluster.local:9200/
+    - Time field name: @timestamp
+    - Add 
+
+####Import grafana dashboard for prometheus metrices details from "./grafana_dashboards/k8s_dashboard.json" to grafana.
 
 * Brows [Dashboards / Manage / import}
     - Name: Kubernetes Pod Resources
-    - Location: /prometheus-master/grafana_dashboards/dashboard_1.json
+    - Location: /grafana_dashboards/k8s_dashboard.json
+    - import
+
+####Import grafana dashboard for elastic log analysis from "./grafana_dashboards/elasticSearch_dashboard.json" to grafana.
+
+* Brows [Dashboards / Manage / import}
+    - Name: Kubernetes Pod Resources
+    - Location: /grafana_dashboards/elasticSearch_dashboard.json
     - import
 
 ####Create a "Notification channel" to make sure that alert mails will receive for the right address.
