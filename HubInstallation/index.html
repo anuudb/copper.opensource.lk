@@ -291,8 +291,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../Installation/" title="Installation" class="md-nav__link">
-      Installation
+    <a href="../Installation/" title="Installation version 6" class="md-nav__link">
+      Installation version 6
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Installation-7/" title="Installation version 7" class="md-nav__link">
+      Installation version 7
     </a>
   </li>
 
@@ -389,8 +401,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#import-the-grafana-dashboard-from-prometheus-mastergrafana_dashboardsdashboard_1json-to-grafana" title="Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana." class="md-nav__link">
-    Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana.
+  <a href="#configure-elastic-data-source-for-grafana" title="Configure Elastic data source for Grafana." class="md-nav__link">
+    Configure Elastic data source for Grafana.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-grafana-dashboard-for-prometheus-metrices-details-from-grafana_dashboardsk8s_dashboardjson-to-grafana" title="Import grafana dashboard for prometheus metrices details from "./grafana_dashboards/k8s_dashboard.json" to grafana." class="md-nav__link">
+    Import grafana dashboard for prometheus metrices details from "./grafana_dashboards/k8s_dashboard.json" to grafana.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-grafana-dashboard-for-elastic-log-analysis-from-grafana_dashboardselasticsearch_dashboardjson-to-grafana" title="Import grafana dashboard for elastic log analysis from "./grafana_dashboards/elasticSearch_dashboard.json" to grafana." class="md-nav__link">
+    Import grafana dashboard for elastic log analysis from "./grafana_dashboards/elasticSearch_dashboard.json" to grafana.
   </a>
   
 </li>
@@ -515,8 +541,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#import-the-grafana-dashboard-from-prometheus-mastergrafana_dashboardsdashboard_1json-to-grafana" title="Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana." class="md-nav__link">
-    Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana.
+  <a href="#configure-elastic-data-source-for-grafana" title="Configure Elastic data source for Grafana." class="md-nav__link">
+    Configure Elastic data source for Grafana.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-grafana-dashboard-for-prometheus-metrices-details-from-grafana_dashboardsk8s_dashboardjson-to-grafana" title="Import grafana dashboard for prometheus metrices details from "./grafana_dashboards/k8s_dashboard.json" to grafana." class="md-nav__link">
+    Import grafana dashboard for prometheus metrices details from "./grafana_dashboards/k8s_dashboard.json" to grafana.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-grafana-dashboard-for-elastic-log-analysis-from-grafana_dashboardselasticsearch_dashboardjson-to-grafana" title="Import grafana dashboard for elastic log analysis from "./grafana_dashboards/elasticSearch_dashboard.json" to grafana." class="md-nav__link">
+    Import grafana dashboard for elastic log analysis from "./grafana_dashboards/elasticSearch_dashboard.json" to grafana.
   </a>
   
 </li>
@@ -560,10 +600,10 @@
                 <h1 id="copper-hub-installation-process">Copper hub Installation Process<a class="headerlink" href="#copper-hub-installation-process" title="Permanent link">&para;</a></h1>
 <h2 id="copper-hub">Copper-hub<a class="headerlink" href="#copper-hub" title="Permanent link">&para;</a></h2>
 <p><p align="justify">
-This repository contains source code for copper-hub which is the alerting, monitoring and update handling system for Copper.</p>
+This repository contains source code for <a href="https://github.com/lsflk/copper-hub">copper-hub</a> which is the alerting, monitoring and update handling system for Copper. You may access it using http://localhost:3000 after completing belove steps.</p>
 <p>First, create grafana docker image using ./grafana-image/Dockerfile. (Read the ./grafana-image/README.md before building image)
 </p></p>
-<div class="codehilite"><pre><span></span>docker build -t graf .
+<div class="codehilite"><pre><span></span>docker build -t graf ./grafana-image/.
 </pre></div>
 
 
@@ -594,17 +634,35 @@ kubectl delete namespace grafana
 <ul>
 <li>Brows [Grafana UI / Data Sources / Add data source]<ul>
 <li>Name: prometheus</li>
-<li>Type: Prometheus</li>
 <li>Url: http://prometheus.monitoring.svc.cluster.local:9090/</li>
 <li>Add </li>
 </ul>
 </li>
 </ul>
-<h4 id="import-the-grafana-dashboard-from-prometheus-mastergrafana_dashboardsdashboard_1json-to-grafana">Import the grafana dashboard from "./prometheus-master/grafana_dashboards/dashboard_1.json" to grafana.<a class="headerlink" href="#import-the-grafana-dashboard-from-prometheus-mastergrafana_dashboardsdashboard_1json-to-grafana" title="Permanent link">&para;</a></h4>
+<h4 id="configure-elastic-data-source-for-grafana">Configure Elastic data source for Grafana.<a class="headerlink" href="#configure-elastic-data-source-for-grafana" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Brows [Grafana UI / Data Sources / Add data source]<ul>
+<li>Name: Elasticsearch</li>
+<li>Url: http://elasticsearch.copperhub.svc.cluster.local:9200/</li>
+<li>Time field name: @timestamp</li>
+<li>Add </li>
+</ul>
+</li>
+</ul>
+<h4 id="import-grafana-dashboard-for-prometheus-metrices-details-from-grafana_dashboardsk8s_dashboardjson-to-grafana">Import grafana dashboard for prometheus metrices details from "./grafana_dashboards/k8s_dashboard.json" to grafana.<a class="headerlink" href="#import-grafana-dashboard-for-prometheus-metrices-details-from-grafana_dashboardsk8s_dashboardjson-to-grafana" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Brows [Dashboards / Manage / import}<ul>
 <li>Name: Kubernetes Pod Resources</li>
-<li>Location: /prometheus-master/grafana_dashboards/dashboard_1.json</li>
+<li>Location: /grafana_dashboards/k8s_dashboard.json</li>
+<li>import</li>
+</ul>
+</li>
+</ul>
+<h4 id="import-grafana-dashboard-for-elastic-log-analysis-from-grafana_dashboardselasticsearch_dashboardjson-to-grafana">Import grafana dashboard for elastic log analysis from "./grafana_dashboards/elasticSearch_dashboard.json" to grafana.<a class="headerlink" href="#import-grafana-dashboard-for-elastic-log-analysis-from-grafana_dashboardselasticsearch_dashboardjson-to-grafana" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Brows [Dashboards / Manage / import}<ul>
+<li>Name: Kubernetes Pod Resources</li>
+<li>Location: /grafana_dashboards/elasticSearch_dashboard.json</li>
 <li>import</li>
 </ul>
 </li>
